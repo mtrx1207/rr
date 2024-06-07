@@ -89,7 +89,9 @@ public:
                 if(it1->get_roomname() == room1){
                     for(auto it2: this->rooms){
                         if(it2->get_roomname() == room2){
+                            int reverse_direction = (direction % 2) ? direction - 1 : direction + 1;
                             it1->connect_room(direction, it2);
+                            it2->connect_room(reverse_direction, it1);
                             break;
                         } 
                     }
