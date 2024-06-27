@@ -17,8 +17,8 @@ class A{
 
 int main(){
     try{
-        A a(1);
-        A c(2);
+        A a(1); //
+        A c(2);//
         A b(0);
     }
     catch(const std::exception &){

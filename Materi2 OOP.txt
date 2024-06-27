@@ -1,0 +1,33 @@
+Materi2 OOP
+
+1. Konsep OOP: abstraction, encapsulation, inheritance, polymorphism
+2. Encapsulation: access modifier (private, protected, public)
+3. Pointer: basic concept, new delete keyword, array, type casting
+4. Class: how to instantiate an object, constructor, destructor
+5. Class vs struct?
+6. How to define class method's body outside its class (using ::)
+7. assignment operator, int x = y; bisa ditulis int x(y)
+8. Inheritance: public, protected, private inheritance
+9. Inheritance: function overriding (derived class has same method name with base class)
+10. Inheritance: how to call base class constructor in derived class
+11. Inheritance: object from another class as a member inside a class
+12. Polymorphism: function overloading (many function with same name)
+13. Polymorphism: base class pointer points to derived class object (upcasting)
+14. Polymorphism: template<typename T>
+15. Polymorphism: operator overloading, bedanya klo dideclare di dalem kelas dan diluar kelas apa, how to overload ++(preincrement) and (postincrement)++
+16. Polymorphism: virtual function and pure virtual function
+17. Polymorphism: virtual destructor (ini blm sempet diksh tau detailnya)
+18. Const variable, const object
+19. Const pointer
+20. Const method (inside a class)
+21. Static variable
+22. Static class member (ini blm dibahas)
+23. Namespace
+24. Exception: try, catch, catch(...), throw, std::logic_error(), exception class
+25. Default function parameter, contoh: void add(int a, int b=5), void add(int a = 5, int b) illegal
+26. bedain kapan pake '.' kapan pake '->'
+27. Pass By Reference (&): NGERTIIN KONSEPNYA NIHH
+27. C++ STL: list, vector, map (belom dibahas)
+28. Copy constructor (belom dibahas)
+29. Inline function (belom dibahas)
+30. C++ input output stream: cin, cout, fstream, ifstream, ofstream (blm dibahas)
